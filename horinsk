@@ -19,17 +19,3 @@ paramset hosts "www.rbpogoda.ru:smtp:port" 7100
 paramset hosts "www.rbpogoda.ru:smtp:username" AMK-30739
 paramset hosts "www.rbpogoda.ru:smtp:password" 30739
 paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
-
-
-Параметры SMTP клиента для отправки на ЦСДН
-Получатель - stream1@ulan-ude.mecom.ru
-(ulan-ude.mecom.ru написан от балды, главное тут stream1)
-Отправитель AMK12345@ulan-ude.mecom.ru
-(где12345 синоптический индекс станции, если формат AMK12345 будет не выдержан то SMTP-сервер ЦСДН отбросит сообщение)
-аутентификация отсутсвует
-IP адрес SMTP-сервера
-92.124.198.75
-доменное имя на этом IP - www.rbpogoda.ru  (если вдруг понадобится)
-Пароль к SMTP (на всякий случай) 30829
-порт SMTP - 7100
-логин SMTP - AMK-30829
