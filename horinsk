@@ -1,6 +1,10 @@
 open
-S:00000001: SMTP_Main:server = www.rbpogoda.ru
-S:00000001: SMTP_Main:srcdomain = rbpogoda.ru
+paramset hosts "www.rbpogoda.ru:smtp:port" 7100
+paramset hosts "www.rbpogoda.ru:smtp:username" AMK-30739
+paramset hosts "www.rbpogoda.ru:smtp:password" 30739
+paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
+
+
 Параметры SMTP клиента для отправки на ЦСДН
 Получатель - stream1@ulan-ude.mecom.ru
 (ulan-ude.mecom.ru написан от балды, главное тут stream1)
