@@ -19,3 +19,12 @@ paramset hosts "www.rbpogoda.ru:smtp:port" 7100
 paramset hosts "www.rbpogoda.ru:smtp:username" AMK-30739
 paramset hosts "www.rbpogoda.ru:smtp:password" 30739
 paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
+paramset eth1 autoinitinterval 5000
+paramset eth1 autoinit 1
+paramset eth1 ifpriority 1
+paramset eth1 dns2 "8.8.8.8"
+paramset eth1 dns1 "8.8.4.4"
+paramset eth1 gateway "10.9.16.94"
+paramset eth1 subnetmask "255.255.255.248"
+paramset eth1 address "10.9.16.92"
+paramset eth1 staticip 1
