@@ -28,3 +28,7 @@ paramset eth1 gateway "10.9.16.94"
 paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.16.92"
 paramset eth1 staticip 1
+paramset WIN1251_to_KOI8R:flag1 = 1
+paramset WIN1251_to_KOI8R:flag2 = 1
+paramset WIN1251_to_KOI8R:flag3 = 1
+paramset WIN1251_to_KOI8R:flag4 = 1
